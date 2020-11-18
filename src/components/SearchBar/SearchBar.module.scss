@@ -1,16 +1,16 @@
 .InputContainer {
   border: solid 1px #cfcfcf;
   border-radius: 0.4rem;
-
   display: flex;
   align-items: center;
-  background-color: aqua;
 
   svg {
     color: #cccccc !important;
+    font-size: 1.5rem;
   }
 }
 
 .Input {
   padding: 0.4rem;
+  font-size: 1.5rem;
 }
