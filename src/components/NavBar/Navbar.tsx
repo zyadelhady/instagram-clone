@@ -4,6 +4,9 @@ import classes from './Navbar.module.scss';
 import Logo from '../../assets/logo.png';
 import { Container } from '@material-ui/core';
 import { SearchBar } from '../SearchBar/SearchBar';
+import { HiOutlineHome } from 'react-icons/hi';
+import { FiSend, FiHeart } from 'react-icons/fi';
+import { FaRegCompass, FaRegUserCircle } from 'react-icons/fa';
 
 export interface NavbarProps {}
 
@@ -17,6 +20,13 @@ export const Navbar: FC<NavbarProps> = (props) => {
           </div>
           <div className={classes.SearchBar}>
             <SearchBar />
+          </div>
+          <div className={classes.Icons}>
+            <HiOutlineHome />
+            <FiSend />
+            <FaRegCompass />
+            <FiHeart />
+            <FaRegUserCircle />
           </div>
         </div>
       </Container>
