@@ -13,12 +13,17 @@ export const theme: DefaultTheme = {
 
   fontSize: { main: 1.6 },
 
-  fontWeight: { main: 400, mid: 500, big: 900 },
+  fontWeight: { Light: 300, Regular: 400, Medium: 500, Bold: 700 },
 
   mediaQueries: {
     mobile: '(max-width: 767.98px)',
     tablet: '(max-width: 991.98px)',
     canHover: '(hover: hover) and (pointer: fine)',
+  },
+
+  bg: {
+    main: '#FAFAFA',
+    secondry: '#ffffff',
   },
 
   border: '1px solid rgba(0, 0, 0, 0.3)',
