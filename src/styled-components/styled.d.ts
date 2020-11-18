@@ -14,12 +14,22 @@ declare module 'styled-components' {
 
     fontSize: { main: number };
 
-    fontWeight: { main: number; mid: number; big: number };
+    fontWeight: {
+      Light: number;
+      Regular: number;
+      Medium: number;
+      Bold: number;
+    };
 
     mediaQueries: {
       mobile: string;
       tablet: string;
       canHover: string;
+    };
+
+    bg: {
+      main: string;
+      secondry: string;
     };
 
     border: string;

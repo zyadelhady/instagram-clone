@@ -19,9 +19,10 @@ export const GlobalStyle = createGlobalStyle`
 
   body{
     font-size:${(props) => props.theme.fontSize.main}rem;
-    font-weight:${(props) => props.theme.fontWeight.main};
+    font-weight:${(props) => props.theme.fontWeight.Light};
     font-family:${(props) =>
       `${props.theme.fontFamliy.main}, ${props.theme.fontFamliy.fallBack}`};
+      background-color:${(props) => props.theme.bg.main};
   }
 
   button,input,textarea{
@@ -31,6 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: inherit;
     font-family: inherit;
     font-size: inherit;
+    outline:none;
   }
   a{
     text-decoration:none;
